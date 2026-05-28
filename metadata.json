@@ -1,0 +1,7 @@
+{
+  "name": "Decorjan Vidraçaria",
+  "description": "Site moderno e elegante para a Decorjan Vidraçaria em Janaúba-MG. Especialistas em vidros sob medida, box, espelhos e fachadas.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
