@@ -50,15 +50,15 @@ export default function App() {
     </div>
   );
   const services = [
-    { title: "Box para Banheiro", icon: <ShieldCheck className="w-6 h-6" />, img: "/box.png" },
-    { title: "Espelhos Sob Medida", icon: <Sparkles className="w-6 h-6" />, img: "/espelho.png" },
-    { title: "Fechamento de Sacadas", icon: <Maximize className="w-6 h-6" />, img: "/sacada.png" },
-    { title: "Portas e Janelas Blindex", icon: <Layout className="w-6 h-6" />, img: "/porta.png" },
-    { title: "Divisória", icon: <ChevronRight className="w-6 h-6" />, img: "/divisoria.png" },
-    { title: "Fachadas Comerciais", icon: <CheckCircle2 className="w-6 h-6" />, img: "/fachada.png" },
-    { title: "Guarda-corpo e Corrimão", icon: <ShieldCheck className="w-6 h-6" />, img: "/gc.png" },
-    { title: "Forro em PVC", icon: <Layout className="w-6 h-6" />, img: "/pvc.png" },
-    { title: "Persianas", icon: <Menu className="w-6 h-6" />, img: "/persiana.png" },
+    { title: "Box para Banheiro", icon: <ShieldCheck className="w-6 h-6" />, img: "box.png" },
+    { title: "Espelhos Sob Medida", icon: <Sparkles className="w-6 h-6" />, img: "espelho.png" },
+    { title: "Fechamento de Sacadas", icon: <Maximize className="w-6 h-6" />, img: "sacada.png" },
+    { title: "Portas e Janelas Blindex", icon: <Layout className="w-6 h-6" />, img: "porta.png" },
+    { title: "Divisória", icon: <ChevronRight className="w-6 h-6" />, img: "divisoria.png" },
+    { title: "Fachadas Comerciais", icon: <CheckCircle2 className="w-6 h-6" />, img: "fachada.png" },
+    { title: "Guarda-corpo e Corrimão", icon: <ShieldCheck className="w-6 h-6" />, img: "gc.png" },
+    { title: "Forro em PVC", icon: <Layout className="w-6 h-6" />, img: "pvc.png" },
+    { title: "Persianas", icon: <Menu className="w-6 h-6" />, img: "persiana.png" },
   ];
 
   return (
