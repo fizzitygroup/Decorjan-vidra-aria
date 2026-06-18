@@ -86,7 +86,7 @@ export default function App() {
               href={whatsappUrl} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="bg-decor-red hover:bg-red-700 text-white px-6 py-2 rounded-full font-semibold transition-all shadow-lg hover:scale-105 flex items-center gap-2"
+              className="bg-[#25D366] hover:bg-[#1dba58] text-white px-6 py-2 rounded-full font-semibold transition-all shadow-lg hover:scale-105 flex items-center gap-2"
             >
               <MessageCircle size={18} />
               Orçamento
@@ -193,7 +193,7 @@ export default function App() {
               <p className="text-sm text-slate-300 uppercase tracking-widest">Experiência</p>
             </div>
             <div>
-              <p className="text-3xl md:text-4xl font-bold text-decor-red mb-1">Atendemos Janaúba e Região</p>
+              <p className="text-xl md:text-2xl font-bold text-decor-red mb-1 whitespace-nowrap">Atendemos Janaúba e Região</p>
               <p className="text-sm text-slate-300 uppercase tracking-widest">Referência Regional</p>
             </div>
           </div>
