@@ -1,12 +1,12 @@
 import { useState, useEffect } from 'react';
-import { 
-  MessageCircle, 
-  Instagram, 
-  MapPin, 
-  Clock, 
-  ChevronRight, 
-  CheckCircle2, 
-  Menu, 
+import {
+  MessageCircle,
+  Instagram,
+  MapPin,
+  Clock,
+  ChevronRight,
+  CheckCircle2,
+  Menu,
   X,
   Maximize,
   Layout,
@@ -16,6 +16,15 @@ import {
   Phone
 } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import imgBox from './assets/box.png';
+import imgEspelho from './assets/espelho.png';
+import imgSacada from './assets/sacada.png';
+import imgPorta from './assets/porta.png';
+import imgDivisoria from './assets/divisoria.png';
+import imgFachada from './assets/fachada.png';
+import imgGc from './assets/gc.png';
+import imgPvc from './assets/pvc.png';
+import imgPersiana from './assets/persiana.png';
 
 // SEO Keywords for Janaúba-MG
 // vidraçaria em Janaúba, box de vidro Janauba, espelhos sob medida Janaúba, fechamento de sacada Janaúba
@@ -50,15 +59,15 @@ export default function App() {
     </div>
   );
   const services = [
-    { title: "Box para Banheiro", icon: <ShieldCheck className="w-6 h-6" />, img: "/box.png" },
-    { title: "Espelhos Sob Medida", icon: <Sparkles className="w-6 h-6" />, img: "/espelho.png" },
-    { title: "Fechamento de Sacadas", icon: <Maximize className="w-6 h-6" />, img: "/sacada.png" },
-    { title: "Portas e Janelas Blindex", icon: <Layout className="w-6 h-6" />, img: "/porta.png" },
-    { title: "Divisória", icon: <ChevronRight className="w-6 h-6" />, img: "/divisoria.png" },
-    { title: "Fachadas Comerciais", icon: <CheckCircle2 className="w-6 h-6" />, img: "/fachada.png" },
-    { title: "Guarda-corpo e Corrimão", icon: <ShieldCheck className="w-6 h-6" />, img: "/gc.png" },
-    { title: "Forro em PVC", icon: <Layout className="w-6 h-6" />, img: "/pvc.png" },
-    { title: "Persianas", icon: <Menu className="w-6 h-6" />, img: "/persiana.png" },
+    { title: "Box para Banheiro", icon: <ShieldCheck className="w-6 h-6" />, img: imgBox },
+    { title: "Espelhos Sob Medida", icon: <Sparkles className="w-6 h-6" />, img: imgEspelho },
+    { title: "Fechamento de Sacadas", icon: <Maximize className="w-6 h-6" />, img: imgSacada },
+    { title: "Portas e Janelas Blindex", icon: <Layout className="w-6 h-6" />, img: imgPorta },
+    { title: "Divisória", icon: <ChevronRight className="w-6 h-6" />, img: imgDivisoria },
+    { title: "Fachadas Comerciais", icon: <CheckCircle2 className="w-6 h-6" />, img: imgFachada },
+    { title: "Guarda-corpo e Corrimão", icon: <ShieldCheck className="w-6 h-6" />, img: imgGc },
+    { title: "Forro em PVC", icon: <Layout className="w-6 h-6" />, img: imgPvc },
+    { title: "Persianas", icon: <Menu className="w-6 h-6" />, img: imgPersiana },
   ];
 
   return (
